@@ -10,7 +10,7 @@ It generate automatically a one-pattern exception.
 
 ## Quick Use
 
-First, command to run:
+First, run the command:
 
 ``pip install quickassert``
 
@@ -43,3 +43,13 @@ where one can obtain:
 >>> enter_digit(23)
 >>> ValueError: d must be digit
 ```
+
+## Comming in following versions
+
+* Better exception and message handling.
+* Mode with inspection, no need to pass variable name if same (maybe with a decorator)
+* Smallest tree checking, for optimisation, for example:
+    (x > 3) & (x > 5) ~ (x > 5)
+* Typing check adapted.
+* And maybe more
+
