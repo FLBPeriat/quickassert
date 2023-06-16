@@ -44,7 +44,7 @@ where one can obtain:
 >>> ValueError: d must be digit
 ```
 
-## Comming in following versions
+## Coming in following versions
 
 * Better exception and message handling.
 * Mode with inspection, no need to pass variable name if same (maybe with a decorator)

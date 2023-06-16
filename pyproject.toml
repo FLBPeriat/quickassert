@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "quickassert_FLBP"
+version = "0.0.1"
+authors = [
+  { name="F.L.B Périat", email="florent.periat@gmail.com" },
+]
+description = "Creates assertion administor (access) on relatively small prodjects, in order to save time used in raising and writing exceptions. It generate automatically a one-pattern exception."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FLBPeriat/quickassert"
+"Bug Tracker" = "https://github.com/FLBPeriat/quickassert/issues"
